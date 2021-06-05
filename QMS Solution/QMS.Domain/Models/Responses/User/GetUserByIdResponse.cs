@@ -1,0 +1,12 @@
+﻿using QMS.Domain.Models.User;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace QMS.Domain.Models.Responses.User
+{
+    public class GetUserByIdResponse : ICommandQueryResponse
+    {
+        public UserViewModel User { get; set; }
+    }
+}

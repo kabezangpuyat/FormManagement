@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QMS.Core\QMS.Core.csproj" />
+    <ProjectReference Include="..\QMS.Mapper\QMS.Mapper.csproj" />
+    <ProjectReference Include="..\QMS.Queries\QMS.Queries.csproj" />
+  </ItemGroup>
+
+</Project>
